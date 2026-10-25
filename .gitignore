@@ -1,0 +1,8 @@
+target/
+*.class
+.idea/
+*.iml
+
+# Barbican (CI-injected, never committed): uniffi Kotlin binding + native engine
+src/barbican/kotlin/uniffi/
+src/main/resources/*/
